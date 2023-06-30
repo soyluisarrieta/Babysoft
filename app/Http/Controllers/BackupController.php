@@ -18,6 +18,8 @@ class BackupController extends Controller
         ->setDbName(env('DB_DATABASE'))
         ->setUserName(env('DB_USERNAME'))
         ->setPassword(env('DB_PASSWORD'))
+        ->setHost(env('DB_HOST'))
+        ->setPort(env('DB_PORT'))
         ->dumpToFile(storage_path($backupPath));
 
       return redirect()->back()->with('success', '¡Copia de seguridad creada con éxito!');
