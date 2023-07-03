@@ -70,4 +70,4 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 1. Fix for XAMPP but not php artisan serve - [StackOverflow Reference](https://es.stackoverflow.com/questions/484332/como-resolver-error-en-laravel-the-dump-process-failed-with-exitcode-1-general)
 2. Fix error "Unknown MySQL server host 'localhost' (11003)" - [StackOverflow Reference](https://es.stackoverflow.com/questions/484332/como-resolver-error-en-laravel-the-dump-process-failed-with-exitcode-1-general)
-3. Fix error "Can't create TCP/IP socket (10106)" - 
+3. Fix error "Can't create TCP/IP socket (10106)" - Not solucionated for php artisan serve
